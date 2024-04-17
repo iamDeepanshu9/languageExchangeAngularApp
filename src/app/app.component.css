@@ -1,0 +1,105 @@
+/* General body and layout styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Forms and input elements styling */
+input[type="text"], input[type="email"], input[type="password"], select {
+  width: 300px;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Helper classes for layout */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+/* Structural layout */
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+/* Post styling */
+.post {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.post h3 {
+  color: #333;
+}
+
+.post small {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Notification styling */
+.notification {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  border-radius: 8px;
+  color: #856404;
+}
+
+.notification button {
+  margin-top: 10px;
+}
+
+/* Add more styles as needed */

@@ -1,0 +1,5 @@
+<div *ngFor="let request of connectionRequests">
+  <p>{{request.fromUserName}} wants to connect with you for "{{request.postTitle}}" ({{request.language}}).</p>
+  <button (click)="acceptRequest(request)">Accept</button>
+  <button (click)="rejectRequest(request)">Reject</button>
+</div>
